@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-4 md:px-12 py-6 md:py-4">
     <div class="mt-14 mb-8 h-16 w-16 cursor-pointer">
       <img class="rounded-full" src="/images/avatar.jpg" alt="Avatar Logo" />
     </div>

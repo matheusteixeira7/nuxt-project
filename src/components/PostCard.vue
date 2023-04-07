@@ -1,6 +1,9 @@
 <template>
-  <div v-for="(post, postIndex) in posts" :key="postIndex"
-    class="-mx-4 pb-10 bg-inherit px-4 transition delay-100 ease-in hover:bg-neutral-800 md:-mx-12 md:px-12 rounded-2xl p-4">
+  <div
+      v-for="(post, postIndex) in posts"
+      :key="postIndex"
+      class="bg-inherit transition ease-in hover:bg-neutral-800 rounded-2xl lg:max-w-xl px-4 md:px-12 py-6 md:py-4 "
+    >
     <a href="/">
       <div class="flex items-center mb-4">
         <div class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />

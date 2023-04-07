@@ -1,12 +1,14 @@
 <template>
-  <div class="bg-black h-full">
+  <div class="h-full overflow-hidden bg-black">
     <Layout>
       <Navbar />
       <Hero />
       <CardImage />
-      <div>
-        <PostCard />
+      <div class="lg:flex lg:justify-between mb-12">
         <div>
+          <PostCard />
+        </div>
+        <div class="mx-4 md:mx-12 lg:max-w-md">
           <Newsletter />
           <WorkExperience />
         </div>
@@ -15,5 +17,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>

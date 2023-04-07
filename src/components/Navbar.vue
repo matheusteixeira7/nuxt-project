@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="px-4 md:px-12 py-6 md:py-4">
     <!-- Avatar logo -->
     <div class="flex justify-between">
       <div class="h-9 w-9 cursor-pointer">

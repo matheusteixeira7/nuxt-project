@@ -8,7 +8,7 @@
         <div>
           <PostCard />
         </div>
-        <div class="mx-4 md:mx-12 lg:max-w-md">
+        <div class="mr-4 md:mr-12 lg:max-w-md">
           <Newsletter />
           <WorkExperience />
         </div>
